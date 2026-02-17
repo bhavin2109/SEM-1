@@ -1,0 +1,38 @@
+/* ===== Category Listing Page Styles ===== */
+/* Used by: mobiles.html, laptops.html, tablets.html, tv.html, tws.html */
+
+.category-header {
+    text-align: center;
+    padding: 20px 24px 0;
+    animation: fadeIn 0.5s ease 0.2s backwards;
+}
+
+.category-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-heading);
+}
+
+.category-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+/* Grid is handled by .product-grid and .product-card in common.css */
+
+@media (max-width: 768px) {
+    .category-header h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-header h1 {
+        font-size: 1.2rem;
+    }
+
+    .category-header p {
+        font-size: 0.8rem;
+    }
+}
